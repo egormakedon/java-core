@@ -1,1 +1,2 @@
-javadoc -d doc A.java
+# Expected: javadoc is created.
+javadoc -d doc Main.java

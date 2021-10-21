@@ -3,7 +3,7 @@
 * Java Core notebook link:<br><https://docs.google.com/document/d/1YgJIzdFG_AojUJGjusQRDjmBjCEudDgP_hSD3EI6cG4/edit?usp=sharing>
 
 # Description
-* Class 1:
+* Class 1: compile and run different classes(javac, java), jar, javadoc, javap.
 * Class 2:
 * Class 3:
 * Class 4:

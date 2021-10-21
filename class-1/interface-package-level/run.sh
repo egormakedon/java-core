@@ -1,1 +1,0 @@
-javac -d target -sourcepath src src/pac1/A.java

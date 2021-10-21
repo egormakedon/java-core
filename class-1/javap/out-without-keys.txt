@@ -1,5 +1,0 @@
-Compiled from "A.java"
-public class A {
-  public A();
-  public static void main(java.lang.String[]);
-}
