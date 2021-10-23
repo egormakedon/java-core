@@ -5,7 +5,7 @@
 # Description
 * Class 1: compile and run different classes(javac, java), jar, javadoc, javap.
 * Class 2: inner, nested and anonymous classes.
-* Class 3:
+* Class 3: classloader.
 * Class 4:
 * Class 5:
 * Class 6:
