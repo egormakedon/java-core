@@ -1,4 +1,9 @@
-public class A {
+/**
+ * Expected: 64.
+ * 
+ * @author Yahor Makedon
+ */
+public class Main {
 	public static void main(String[] args) {
 		int three = 3;
 		String four = "4";
