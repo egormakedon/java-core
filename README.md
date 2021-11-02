@@ -7,7 +7,7 @@
 * Class 2: inner, nested and anonymous classes.
 * Class 3: classloader.
 * Class 4: strings.
-* Class 5:
+* Class 5: out of memory and stack overflow errors.
 * Class 6:
 * Class 7:
 * Class 8:
