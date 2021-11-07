@@ -1,3 +1,4 @@
 # Expected: gc-logs created.
-javac Main.java
-java -Xloggc:gc-logs.log Main
+mkdir -p target
+javac -d target Main.java
+java -classpath target -Xloggc:target/gc-logs.log Main
