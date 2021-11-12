@@ -1,3 +1,5 @@
+package by.makedon.metaspace;
+
 /**
  * Expected: java.lang.OutOfMemoryError: Metaspace.
  * -XX:MetaspaceSize=16m -XX:MaxMetaspaceSize=16m
