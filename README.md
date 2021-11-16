@@ -9,7 +9,7 @@
 * Class 4: strings.
 * Class 5: out of memory and stack overflow errors.
 * Class 6: arrays, strings, exceptions, generics and methods.
-* Class 7:
+* Class 7: non standard exceptions, try, catch, throw, throws.
 * Class 8:
 * Class 9:
 * Class 10:
