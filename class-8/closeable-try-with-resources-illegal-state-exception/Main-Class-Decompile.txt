@@ -1,45 +1,45 @@
 //
 // Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
+// (powered by FernFlower decompiler)
 //
 
 public class Main {
     public Main() {
     }
 
-    public static void main(String[] var0) {
+    public static void main(String[] args) {
         try {
-            A var1 = new A();
+            A a = new A();
             Throwable var22 = null;
 
             try {
-                var1.print();
-                throw new IllegalStateException("Main class - IllegalStateException");
+                a.print();
+                throw new IllegalStateException("Main class - try block - IllegalStateException");
             } catch (Throwable var18) {
                 var22 = var18;
                 throw var18;
             } finally {
-                if (var1 != null) {
+                if (a != null) {
                     if (var22 != null) {
                         try {
-                            var1.close();
+                            a.close();
                         } catch (Throwable var17) {
                             var22.addSuppressed(var17);
                         }
                     } else {
-                        var1.close();
+                        a.close();
                     }
                 }
 
             }
         } catch (IllegalStateException var20) {
-            System.out.println(var20.getMessage());
+            System.out.printf("Main class - catch block - [%s]\n", var20.getMessage());
             Throwable[] var2 = var20.getSuppressed();
             int var3 = var2.length;
 
             for(int var4 = 0; var4 < var3; ++var4) {
-                Throwable var5 = var2[var4];
-                System.out.println(var5.getMessage());
+                Throwable t = var2[var4];
+                System.out.printf("Main class - catch block - [%s]\n", t.getMessage());
             }
         } finally {
             System.out.println("Main class - finally block");

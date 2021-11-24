@@ -10,7 +10,7 @@
 * Class 5: out of memory and stack overflow errors.
 * Class 6: arrays, strings, exceptions, generics and methods.
 * Class 7: non standard exceptions, try, catch, throw, throws.
-* Class 8:
+* Class 8: closeable try with resources with main class decompile and substring.
 * Class 9:
 * Class 10:
 * Class 11:
