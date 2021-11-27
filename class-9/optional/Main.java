@@ -1,6 +1,11 @@
 import java.util.*;
 
-public class A {
+/**
+ * Expected: optional.
+ * 
+ * @author Yahor Makedon
+ */
+public class Main {
 	public static void main(String[] args) {
 		Object o = null;
 		method1(o);

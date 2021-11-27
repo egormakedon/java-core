@@ -1,4 +1,9 @@
-public class A {
+/**
+ * Expected: functional interface, 55.
+ * 
+ * @author Yahor Makedon
+ */
+public class Main {
 	public static void main(String[] args) {
 		method(() -> {
 			int sum = 0;
@@ -9,12 +14,12 @@ public class A {
 		}); 
 	}
 
-	private static void method(OwnInterface i) {
+	private static void method(CountInterface i) {
 		System.out.println(i.count());
 	}
 
 	@FunctionalInterface
-	interface OwnInterface {
+	interface CountInterface {
 		int count();
 	}
 }
